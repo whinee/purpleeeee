@@ -1,4 +1,0 @@
-#!/usr/bin/sh
-git add .
-git commit -am 'whi~nyaan commits!'
-git push
