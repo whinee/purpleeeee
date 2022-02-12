@@ -1,13 +1,4 @@
-#!/usr/bin/env python3.10
-import shlex
-from subprocess import call
-
-
-def run(s: str):
-    call(shlex.split(s))
-
-if __name__ == "__main__":
-    run("python main.py")
-    run("git add .")
-    run(f"git commit -am 'Update HTMLs and MDs'")
-    run("git push")
+#!/usr/bin/sh
+git add .
+git commit -am 'whi~nyaan commits!'
+git push
